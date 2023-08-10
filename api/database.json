@@ -87,5 +87,41 @@
       "price": 225
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": 1,
+      "paintsId": 0,
+      "interiorId": 0,
+      "techId": 0,
+      "wheelsId": 0
+    },
+    {
+      "id": 2,
+      "paintsId": 0,
+      "interiorId": 0,
+      "techId": 0,
+      "wheelsId": 0
+    },
+    {
+      "id": 3,
+      "paintsId": 0,
+      "interiorId": 0,
+      "techId": 0,
+      "wheelsId": 0
+    },
+    {
+      "id": 4,
+      "paintsId": 0,
+      "interiorId": 0,
+      "techId": 0,
+      "wheelsId": 0
+    },
+    {
+      "id": 5,
+      "paintsId": 0,
+      "interiorId": 0,
+      "techId": 0,
+      "wheelsId": 0
+    }
+  ]
 }
