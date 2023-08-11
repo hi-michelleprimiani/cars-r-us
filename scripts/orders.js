@@ -6,7 +6,7 @@ export const Orders = async() => {
 
 let html = `<h2>Orders</h2>`
 const ordersArray = orders.map((order) => {
-    let orderPrice = order.paint.price + order.interior.price + order.package.price + order.wheel.price
+    let orderPrice = (order.paint?.price || 0) + (order.interior?.price || 0) + (order.package?.price || 0) + (order.wheel?.price || 0)
     let convertedPrice = 
     orderPrice.toLocaleString("en-US", {
         style: "currency",
