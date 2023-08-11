@@ -1,26 +1,27 @@
+import { setTechnology } from "./transientstate.js"
 
 
 
 const changeHandlerTech = (changeEvent) => {
-    if (changeEvent.target.id === "technology") {
+    if (changeEvent.target.id === "technologys") {
         const chosenOption = changeEvent.target.value
-        console.log(parseInt(chosenOption))
+        setTechnology(parseInt(chosenOption))
     }
 }
 
 
 
 export const TechFetchFunction = async() => {
-    const response = await fetch("http://localhost:8088/technology")
-    const technology = await response.json()
+    const response = await fetch("http://localhost:8088/packages")
+    const technologys = await response.json()
 
     document.addEventListener("change", changeHandlerTech)
 
     let html = `<h2>Technology</h2>
-    <select id="technology">
+    <select id="technologys">
     <option value="0">Choose Your Technology</option>`
-    const technologyArray = technology.map((tech) => {
-        return `<option value="${tech.id}">${tech.name}</option>`
+    const technologyArray = technologys.map((technology) => {
+        return `<option value="${technology.id}">${technology.name}</option>`
     }
     )
     

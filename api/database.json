@@ -1,5 +1,5 @@
 {
-  "paint": [
+  "paints": [
     {
       "id": 1,
       "name": "Silver",
@@ -21,7 +21,7 @@
       "price": 525
     }
   ],
-  "interior": [
+  "interiors": [
     {
       "id": 1,
       "name": "Beige Fabric",
@@ -43,7 +43,7 @@
       "price": 400
     }
   ],
-  "technology": [
+  "packages": [
     {
       "id": 1,
       "name": "Basic Package (basic sound system)",
@@ -89,39 +89,109 @@
   ],
   "orders": [
     {
-      "id": 1,
-      "paintsId": 0,
-      "interiorId": 0,
-      "techId": 0,
-      "wheelsId": 0
+      "paintId": 2,
+      "interiorId": 2,
+      "packageId": 3,
+      "wheelId": 2,
+      "id": 1
     },
     {
-      "id": 2,
-      "paintsId": 0,
-      "interiorId": 0,
-      "techId": 0,
-      "wheelsId": 0
+      "paintId": 2,
+      "interiorId": 2,
+      "packageId": 3,
+      "wheelId": 2,
+      "id": 2
     },
     {
-      "id": 3,
-      "paintsId": 0,
-      "interiorId": 0,
-      "techId": 0,
-      "wheelsId": 0
+      "paintId": 3,
+      "interiorId": 2,
+      "packageId": 3,
+      "wheelId": 3,
+      "id": 5
     },
     {
-      "id": 4,
-      "paintsId": 0,
-      "interiorId": 0,
-      "techId": 0,
-      "wheelsId": 0
+      "paintId": 4,
+      "interiorId": 2,
+      "packageId": 1,
+      "wheelId": 2,
+      "id": 6
     },
     {
-      "id": 5,
-      "paintsId": 0,
+      "paintId": 2,
+      "interiorId": 2,
+      "packageId": 3,
+      "wheelId": 2,
+      "id": 7
+    },
+    {
+      "paintId": 3,
+      "interiorId": 3,
+      "packageId": 2,
+      "wheelId": 2,
+      "id": 8
+    },
+    {
+      "paintId": 1,
+      "interiorId": 3,
+      "packageId": 3,
+      "wheelId": 3,
+      "id": 9
+    },
+    {
+      "paintId": 1,
+      "interiorId": 3,
+      "packageId": 2,
+      "wheelId": 4,
+      "id": 10
+    },
+    {
+      "paintId": 0,
       "interiorId": 0,
-      "techId": 0,
-      "wheelsId": 0
+      "packageId": 0,
+      "wheelId": 0,
+      "id": 11
+    },
+    {
+      "paintId": 2,
+      "interiorId": 3,
+      "packageId": 2,
+      "wheelId": 2,
+      "id": 12
+    },
+    {
+      "paintId": 0,
+      "interiorId": 0,
+      "packageId": 0,
+      "wheelId": 0,
+      "id": 13
+    },
+    {
+      "paintId": 0,
+      "interiorId": 0,
+      "packageId": 0,
+      "wheelId": 0,
+      "id": 14
+    },
+    {
+      "paintId": 3,
+      "interiorId": 2,
+      "packageId": 3,
+      "wheelId": 2,
+      "id": 15
+    },
+    {
+      "paintId": 0,
+      "interiorId": 0,
+      "packageId": 0,
+      "wheelId": 0,
+      "id": 16
+    },
+    {
+      "paintId": 3,
+      "interiorId": 3,
+      "packageId": 2,
+      "wheelId": 3,
+      "id": 17
     }
   ]
 }
