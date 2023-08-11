@@ -1,13 +1,12 @@
 const transientState = {
-    id: 0,
-    paintsId: 0,
+    paintId: 0,
     interiorId: 0,
-    techId: 0,
-    wheelsId: 0
+    packageId: 0,
+    wheelId: 0
 }
 
 export const setPaint = (chosenPaint) => {
-    transientState.paintsId = chosenPaint
+    transientState.paintId = chosenPaint
     console.log(transientState)
 }
 
@@ -16,13 +15,13 @@ export const setInterior = (chosenInterior) => {
     console.log(transientState)
 }
 
-export const setTech = (chosenTech) => {
-    transientState.techId = chosenTech
+export const setTechnology = (chosenTech) => {
+    transientState.packageId = chosenTech
     console.log(transientState)
 }
 
 export const setWheels = (chosenWheels) => {
-    transientState.wheelsId = chosenWheels
+    transientState.wheelId = chosenWheels
     console.log(transientState)
 }
 

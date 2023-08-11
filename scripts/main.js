@@ -27,7 +27,8 @@ const render = async() => {
         </div>
         <div class="tech_html">
         ${techHTML}
-        </div>    </div>
+        </div>  
+        </div>
         <div class="wheel_html">
         ${wheelHTML}
         </div>
