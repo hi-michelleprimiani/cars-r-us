@@ -32,15 +32,16 @@ const render = async() => {
         <div class="wheel_html">
         ${wheelHTML}
         </div>
+        </section>
         <div class="save_btn_html">
         ${savebtnHTML}
         </div>
         <div class="orders_html">
         ${ordersHTML}
         </div>
-
-        
-        </section>
+        <div class="bronco_img">
+        <img src="vintage-style-bronco-car--white-background (2).jpeg" alt="cars-r-us">
+    </div>
         `
         
         
