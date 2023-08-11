@@ -192,6 +192,48 @@
       "packageId": 2,
       "wheelId": 3,
       "id": 17
+    },
+    {
+      "paintId": 0,
+      "interiorId": 0,
+      "packageId": 0,
+      "wheelId": 0,
+      "id": 18
+    },
+    {
+      "paintId": 0,
+      "interiorId": 0,
+      "packageId": 0,
+      "wheelId": 0,
+      "id": 19
+    },
+    {
+      "paintId": 2,
+      "interiorId": 3,
+      "packageId": 2,
+      "wheelId": 3,
+      "id": 20
+    },
+    {
+      "paintId": 2,
+      "interiorId": 2,
+      "packageId": 2,
+      "wheelId": 3,
+      "id": 21
+    },
+    {
+      "paintId": 4,
+      "interiorId": 2,
+      "packageId": 4,
+      "wheelId": 3,
+      "id": 22
+    },
+    {
+      "paintId": 3,
+      "interiorId": 4,
+      "packageId": 3,
+      "wheelId": 4,
+      "id": 23
     }
   ]
 }

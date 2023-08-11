@@ -1,0 +1,64 @@
+.bronco_img {
+text-align: center;
+}
+
+.bronco_img img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+.cars-r-us-logo:hover {
+    transform: scale(1.25);
+}
+
+.cars-r-us-logo {
+   text-align: center; 
+}
+
+.cars-r-us-logo img {
+    width: 250px;
+    height: auto;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.all_choices_html {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.paints_html, .interior_html, .tech_html, .wheel_html {
+    margin: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+
+.save_btn_html {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.save_btn_html:hover {
+    background-color: #D60100;
+    transform: scale(1.05);
+
+}
+
+.orders_html {
+margin-left: 80px;
+margin-right: 80px;
+    padding: 20px;
+    background-color: rgb(223, 229, 239);
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+}
